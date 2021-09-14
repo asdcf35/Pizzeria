@@ -65,12 +65,12 @@ display: table;
 .block1{
 float: left;
 width: 20%;
-padding: 25px;
+padding: 5px;
 }
 .block2{
 float: left;
 width: 80%;
-padding: 25px;
+padding: 5px;
 color: honeydew;
 font-size: 25px;
 font-family: cursive;
@@ -85,6 +85,7 @@ background-color:#e2062c;
 color:black;
 font-size: 15px;
 font-family: cursive;
+margin-bottom: 30px;
 }
 
 #add_item {
