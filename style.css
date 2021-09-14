@@ -85,7 +85,7 @@ background-color:#e2062c;
 color:black;
 font-size: 15px;
 font-family: cursive;
-margin-bottom: 30px;
+
 }
 
 #add_item {
@@ -99,6 +99,7 @@ background: none;
 border: none;
 border-bottom: 1px solid rgb(223, 205, 205);
 outline: none;
+margin-bottom: 30px;
 }
 
 [placeholder]:focus::-webkit-input-placeholder {
