@@ -65,12 +65,12 @@ display: table;
 .block1{
 float: left;
 width: 20%;
-padding: 5px;
+padding: 25px;
 }
 .block2{
 float: left;
 width: 80%;
-padding: 5px;
+padding: 25px;
 color: honeydew;
 font-size: 25px;
 font-family: cursive;
