@@ -11,9 +11,9 @@ function getmenu(){
     var htmldata;
     var imgtags = '<img src="https://www.pikpng.com/pngl/m/54-548943_pizza-clipart-png-pizza-clipart-png-clip-art.png" alt="Pizza Clipart Png Pizza Clipart Png - Clip Art Pizza Transparent Background@pikpng.com">'
     menu_list_array.sort();
-            for(var i=0;i<menu_list_array.length;i++){
-                htmldata=htmldata+menu_list_array[i] + '<br>'
-            }
+            htmldata = menu_list_array.array.forEach(element => {
+                htmldata = element + '<br>'
+            });
             document.getElementById("display_menu").innerHTML = htmldata;
             //give the appropriate id name as display_menu  
 }
